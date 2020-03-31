@@ -1,0 +1,48 @@
+.header-section {
+  background-color: #ffffff;
+  border-bottom: 2px solid #f2f2f2;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-content {
+  width: 1200px;
+
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 45px;
+  }
+}
+
+.search {
+  width: 200px;
+}
+
+form {
+  padding: 0px;
+}
+
+.buttons-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+clr-icon {
+  color: black;
+  margin: 0px 10px;
+}

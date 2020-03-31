@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content-section {
+  min-width: 1000px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-section {
+  background-color: purple;
+  height: 50px;
+  width: 100vw;
+}
+
+.profile-section, .photos, .highlights {
+  min-width: 1000px;
+}
+
+.profile-section {
+  //margin-top: 10px;
+  height: 450px;
+  background-color: orange;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-picture-holder {
+  background-color: greenyellow;
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.profile-information {
+  background-color: blueviolet;
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  background-color: gray;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.followers-posts-following-section {
+  height: 50px;
+  background-color: antiquewhite;
+}
+
+.general-information {
+  background-color: lightblue;
+  flex: 1;
+}
+
+.highlights {
+  margin-top: 10px;
+  background-color: blue;
+  height: 100px;
+}
+
+.photos {
+  margin-top: 10px;
+  flex: 1;
+  overflow: auto;
+  background-color: orange;
+}
+
+.clr-form-control {
+  margin-top: 0px !important;
+}
