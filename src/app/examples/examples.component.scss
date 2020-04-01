@@ -1,7 +1,6 @@
 .container {
   display: flex;
-  flex-direction: column;
-
+  flex-direction: row;
   align-items: center;
 
   .item {
@@ -12,6 +11,22 @@
     margin: 10px;
   }
 
+  .example-header {
+    background-color: purple;
+  }
+
+  .example-profile-information {
+    background-color: mediumaquamarine;
+  }
+
+  .example-highlights {
+    background-color: blue;
+  }
+
+  .example-photos {
+    background-color: orange;
+  }
+
 }
 
 p {
@@ -19,19 +34,4 @@ p {
   font-weight: 600;
 }
 
-.example-header {
-  background-color: purple;
-}
-
-.example-profile-information {
-  background-color: mediumaquamarine;
-}
-
-.example-highlights {
-  background-color: blue;
-}
-
-.example-photos {
-  background-color: orange;
-}
 
