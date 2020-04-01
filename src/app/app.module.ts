@@ -16,6 +16,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ProfileSectionComponent } from './profile-section/profile-section.component';
 import { DiscountInstagramComponent } from './discount-instagram/discount-instagram.component';
 import { HighlightsComponent } from './highlights/highlights.component';
+import { PhotosComponent } from './photos/photos.component';
+import { ExamplesComponent } from './examples/examples.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { HighlightsComponent } from './highlights/highlights.component';
     HeaderComponent,
     ProfileSectionComponent,
     DiscountInstagramComponent,
-    HighlightsComponent
+    HighlightsComponent,
+    PhotosComponent,
+    ExamplesComponent
   ],
   imports: [
     BrowserModule,

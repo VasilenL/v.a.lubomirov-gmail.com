@@ -17,15 +17,21 @@
   background-color: purple;
   height: 50px;
   width: 100vw;
+
+  p {
+    margin: 10px;
+  }
 }
 
 .profile-section, .photos, .highlights {
   min-width: 1000px;
+
+  p {
+    margin: 10px;
+  }
 }
 
 .profile-section {
-  //margin-top: 10px;
-  height: 450px;
   background-color: orange;
 
   display: flex;
