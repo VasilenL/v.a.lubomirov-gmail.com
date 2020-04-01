@@ -7,16 +7,19 @@ import {DiscountInstagramComponent} from './discount-instagram/discount-instagra
 import {ExamplesComponent} from './examples/examples.component';
 import {PostsComponent} from './posts/posts.component';
 import {ParentComponent} from './parent/parent.component';
+import {ObservableExampleComponent} from './observable-example/observable-example.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/layout', pathMatch: 'full'},
   {path: 'layout', component: LayoutComponent},
   {path: 'examples', component: ExamplesComponent},
-  {path: 'posts', component: PostsComponent},
   {path: 'discount-instagram', component: DiscountInstagramComponent},
   {path: 'input-output', component: ParentComponent},
   {path: 'layout-with-components', component: LayoutWithComponentsComponent},
-  {path: 'layout-partially-rewritten', component: LayoutPartiallyRewrittenComponent}
+  {path: 'layout-partially-rewritten', component: LayoutPartiallyRewrittenComponent},
+  {path: 'promises-example', component: PostsComponent},
+  {path: 'observable-example', component: ObservableExampleComponent},
+  {path: 'subject-example', component: ObservableExampleComponent}
 ];
 
 @NgModule({

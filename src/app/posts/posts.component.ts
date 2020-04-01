@@ -20,10 +20,6 @@ export class PostsComponent implements OnInit {
     this.posts$ = this.postsService.getPosts();
   }
 
-  onEdit(post: Post) {
-
-  }
-
   onDelete(post: Post) {
     this.loading = true;
 

@@ -22,6 +22,8 @@ import {HttpClientModule} from '@angular/common/http';
 import {PostsComponent} from './posts/posts.component';
 import {ParentComponent} from './parent/parent.component';
 import {ChildComponent} from './parent/child/child.component';
+import { ObservableExampleComponent } from './observable-example/observable-example.component';
+import { SubjectExampleComponent } from './subject-example/subject-example.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import {ChildComponent} from './parent/child/child.component';
     ExamplesComponent,
     PostsComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    ObservableExampleComponent,
+    SubjectExampleComponent
   ],
   imports: [
     BrowserModule,
