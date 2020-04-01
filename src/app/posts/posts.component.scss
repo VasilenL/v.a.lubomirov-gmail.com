@@ -1,0 +1,10 @@
+
+.posts-holder {
+  display: flex;
+  flex-direction: row;
+
+  .card {
+    flex: 1;
+    margin: 10px;
+  }
+}

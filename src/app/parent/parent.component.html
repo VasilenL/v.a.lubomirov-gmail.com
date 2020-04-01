@@ -1,0 +1,7 @@
+<div>
+  <input clrInput placeholder="My input" name="input" [(ngModel)]="input" />
+  <button class="btn btn-primary" (click)="submitInputToChild()">Send input to Child</button>
+
+  <app-child [input]="inputForChild"></app-child>
+</div>
+
