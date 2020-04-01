@@ -19,11 +19,12 @@ import {HighlightsComponent} from './highlights/highlights.component';
 import {PhotosComponent} from './photos/photos.component';
 import {ExamplesComponent} from './examples/examples.component';
 import {HttpClientModule} from '@angular/common/http';
-import {PostsComponent} from './posts/posts.component';
+import {PostComponent} from './post/post.component';
 import {ParentComponent} from './parent/parent.component';
 import {ChildComponent} from './parent/child/child.component';
 import { ObservableExampleComponent } from './observable-example/observable-example.component';
 import { SubjectExampleComponent } from './subject-example/subject-example.component';
+import { PromisesExampleComponent } from './promises-example/promises-example.component';
 
 @NgModule({
   declarations: [
@@ -41,11 +42,12 @@ import { SubjectExampleComponent } from './subject-example/subject-example.compo
     HighlightsComponent,
     PhotosComponent,
     ExamplesComponent,
-    PostsComponent,
+    PostComponent,
     ParentComponent,
     ChildComponent,
     ObservableExampleComponent,
-    SubjectExampleComponent
+    SubjectExampleComponent,
+    PromisesExampleComponent
   ],
   imports: [
     BrowserModule,

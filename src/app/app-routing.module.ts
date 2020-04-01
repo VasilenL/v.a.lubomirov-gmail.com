@@ -1,13 +1,14 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {Routes, RouterModule} from '@angular/router';
 import {LayoutComponent} from './layout/layout.component';
 import {LayoutWithComponentsComponent} from './layout-with-components/layout-with-components.component';
 import {LayoutPartiallyRewrittenComponent} from './layout-partially-rewritten/layout-partially-rewritten.component';
 import {DiscountInstagramComponent} from './discount-instagram/discount-instagram.component';
 import {ExamplesComponent} from './examples/examples.component';
-import {PostsComponent} from './posts/posts.component';
+import {PostComponent} from './post/post.component';
 import {ParentComponent} from './parent/parent.component';
 import {ObservableExampleComponent} from './observable-example/observable-example.component';
+import {PromisesExampleComponent} from './promises-example/promises-example.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/layout', pathMatch: 'full'},
@@ -17,7 +18,7 @@ const routes: Routes = [
   {path: 'input-output', component: ParentComponent},
   {path: 'layout-with-components', component: LayoutWithComponentsComponent},
   {path: 'layout-partially-rewritten', component: LayoutPartiallyRewrittenComponent},
-  {path: 'promises-example', component: PostsComponent},
+  {path: 'promises-example', component: PromisesExampleComponent},
   {path: 'observable-example', component: ObservableExampleComponent},
   {path: 'subject-example', component: ObservableExampleComponent}
 ];
@@ -26,4 +27,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

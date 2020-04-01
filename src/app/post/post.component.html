@@ -1,7 +1,5 @@
-<p>posts works!</p>
-
 <div class="posts-holder">
-  <div class="card" *ngFor="let post of (posts$ | async)">
+  <div class="card">
     <div class="card-header">
       {{post.title}}
     </div>
@@ -14,7 +12,7 @@
       </div>
     </div>
     <div class="card-footer">
-      <button class="btn btn-sm btn-link" (click)="onDelete(post)">Delete</button>
+<!--      <button class="btn btn-sm btn-link" (click)="onDelete(post)">Delete</button>-->
     </div>
   </div>
 </div>
