@@ -18,4 +18,9 @@ export class ParentComponent implements OnInit {
   submitInputToChild() {
     this.inputForChild = this.input;
   }
+
+  clearInput() {
+    this.input = null;
+    this.inputForChild = null;
+  }
 }

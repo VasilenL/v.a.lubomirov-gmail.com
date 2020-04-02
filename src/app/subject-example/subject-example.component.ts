@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {PostService} from '../post/post.service';
 
 @Component({
   selector: 'app-subject-example',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubjectExampleComponent implements OnInit {
 
-  constructor() { }
+  constructor(private postsService: PostService) { }
 
   ngOnInit(): void {
   }
 
+  destroyState() {
+    this.postsService.destroyPostsState();
+  }
 }

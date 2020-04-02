@@ -1,1 +1,3 @@
 <p>observable-example works! I will display cached content only</p>
+
+<app-post *ngFor="let post of postsState$ | async" [post]="post"></app-post>
