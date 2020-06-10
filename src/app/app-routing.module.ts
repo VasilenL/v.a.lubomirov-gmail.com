@@ -9,11 +9,13 @@ import {PostComponent} from './post/post.component';
 import {ParentComponent} from './parent/parent.component';
 import {ObservableExampleComponent} from './observable-example/observable-example.component';
 import {PromisesExampleComponent} from './promises-example/promises-example.component';
+import {HomeworkComponent} from './homework/homework.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/layout', pathMatch: 'full'},
   {path: 'layout', component: LayoutComponent},
   {path: 'examples', component: ExamplesComponent},
+  {path: 'homework', component: HomeworkComponent},
   {path: 'discount-instagram', component: DiscountInstagramComponent},
   {path: 'input-output', component: ParentComponent},
   {path: 'layout-with-components', component: LayoutWithComponentsComponent},

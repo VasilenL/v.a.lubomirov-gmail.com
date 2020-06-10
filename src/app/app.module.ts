@@ -25,6 +25,7 @@ import {ChildComponent} from './parent/child/child.component';
 import { ObservableExampleComponent } from './observable-example/observable-example.component';
 import { SubjectExampleComponent } from './subject-example/subject-example.component';
 import { PromisesExampleComponent } from './promises-example/promises-example.component';
+import { HomeworkComponent } from './homework/homework.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { PromisesExampleComponent } from './promises-example/promises-example.co
     ChildComponent,
     ObservableExampleComponent,
     SubjectExampleComponent,
-    PromisesExampleComponent
+    PromisesExampleComponent,
+    HomeworkComponent
   ],
   imports: [
     BrowserModule,
